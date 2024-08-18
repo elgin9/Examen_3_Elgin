@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "204876847438",
+    "firebase_url": "https://miproyecto-394821-default-rtdb.firebaseio.com",
+    "project_id": "miproyecto-394821",
+    "storage_bucket": "miproyecto-394821.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204876847438:android:38e87a4b81e1ed0ab1661f",
+        "android_client_info": {
+          "package_name": "com.example.crud"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCayB6KO6tFvBZJx8EkSJYYYyHrCgfoWtI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204876847438:android:430ca63fab8cd327b1661f",
+        "android_client_info": {
+          "package_name": "com.example.examen_3_elgin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCayB6KO6tFvBZJx8EkSJYYYyHrCgfoWtI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

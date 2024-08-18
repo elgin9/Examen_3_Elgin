@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EscucharEntrevistaActivity"
+    android:background="@color/colorbackground">
+
+    <TextView
+        android:id="@+id/tvDescripcionEntrevista"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="276dp"
+        android:background="@drawable/textview_background"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Descripción de la entrevista"
+        android:textColor="@color/colortext"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnReproducirAudio"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginTop="292dp"
+        android:background="@drawable/button_background"
+        android:fontFamily="@font/roboto_bold"
+        android:text="REPRODUCIR"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvDescripcionEntrevista" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
